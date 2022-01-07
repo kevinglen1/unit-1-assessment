@@ -1,0 +1,56 @@
+#display {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+
+#controls{
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+    padding:
+}
+input { 
+    text-align: center;
+    padding: 15px;
+    border: 10px;
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    font-size: 25px;
+    width: 70px;
+    
+
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+button {
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    height: 65px;
+    width: 65px;
+    
+    
+}
+
+button:hover {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+
+}
